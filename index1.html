@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form page</title>
+    <link rel="stylesheet" type="text/css" href="csss/one.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row col-md-6 row-md-offset-3">
+            <div class="panel panel-primary">
+                <div class="panel-heading text-center">
+                   <h2>Enter project Details</h2>
+
+                </div>
+                <div class=" panel-body">
+                    <form action="connect.php" method="post" >
+                        <td colspan="2" rowspan="2">
+                            <label id="students_name" >
+                                <span>Students_name</span><br>
+                                <textarea name="students_name" type="text"  cols="70" rows="4" ></textarea>
+                                  
+                            </label>
+                        </td>
+                        <div class = "form-group">
+                            <label for="project_name">Project_name</label>
+                            <input type="text" class = "form-control" id="project_name" name = "project_name"/>
+                        </div>
+                        <div class = "form-group">
+                            <label for="deparnment">Deparnment</label>
+                            <input type="text" class = "form-control" id="deparnment" name= "deparnment"/>
+                        </div>
+                        <div class = "form-group">
+                            <label for="guided_by">Guided_by</label>
+                            <input type="text" class = "form-control" id="guided_by" name="guided_by" />
+                        </div>
+                        <td colspan="2" rowspan="2">
+                            <label id="project_details">
+                                <span>Project_details</span><br>
+                                <textarea name="project_details" type="text"  cols="80" rows="8" ></textarea>
+                            </label>
+                        </td>
+                        
+                        <input type="Submit" class= "btn btn-primary" >
+                    </form>
+
+                </div>
+                <div class= " panel footer text-right">
+                      <small>&copy; Ten Coder Squad</small> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
