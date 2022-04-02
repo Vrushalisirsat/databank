@@ -1,0 +1,12 @@
+.main{
+    width: 100%;
+    background: linear-gradient( to top, rgba(0,0,0,0.0)50% , rgba(0,0,0,0.0)50% ) , url(sipnabac.jpg) ;
+    background-position: center;
+    background-size: cover;
+    height: 550px;  
+}
+.one{
+    
+font-size: 1.2em;
+padding-top: 50px;
+}

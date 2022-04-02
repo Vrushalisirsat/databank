@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+body{
+       color: rgb(5, 2, 2);
+       margin: 0px;
+       padding: 0px;
+       background: url(civilbac.jpeg); 
+       /* background: position x 10; */
+       background-repeat:repeat-y;
+       background-size: cover;
+       height: 0px;
+}
+h1 {
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    font-size: 2em;
+    color:white;
+    text-align: left;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 2;
+    box-sizing: border-box;
+}
+
+
+.main{
+    width: 100%;
+    background-repeat:repeat-x;
+    background: linear-gradient( rgba(128, 99, 99, 0.2)50% , rgba(134, 83, 83, 0.2)50% ) , url(cmpsbac.jpeg) ;
+    background-position: center;
+    background-size: cover;
+    height: 250vh;
+}
+
+h1{
+    
+    font-size:5em;
+    color:white;
+}
+
+.content-table{
+border-collapse: collapse;
+   color:black;
+  font-size:1.5em;
+  min-width:400px;
+}
+
+.content-table td {
+  padding: 15px;
+}
+
+tr:nth-child(even) {
+          background-color:;
+}
+tr:nth-child(odd){
+        background-color:;
+}
